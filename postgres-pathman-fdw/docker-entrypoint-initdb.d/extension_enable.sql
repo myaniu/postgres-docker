@@ -1,0 +1,7 @@
+CREATE EXTENSION mysql_fdw;
+CREATE EXTENSION oracle_fdw;
+CREATE EXTENSION tds_fdw;
+CREATE EXTENSION postgres_fdw;
+CREATE EXTENSION pg_pathman;
+CREATE EXTENSION pg_cron;
+
