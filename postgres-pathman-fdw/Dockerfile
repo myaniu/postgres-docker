@@ -64,7 +64,6 @@ RUN set -x \
     && apt-get autoremove \
     && apt-get autoclean \
     && rm -rf /var/lib/apt/lists/* \
-    && rm -rf /Oracle.tar.gz \
     && rm -rf /tmp/*
 
 COPY docker-entrypoint-initdb.d/* /docker-entrypoint-initdb.d/
