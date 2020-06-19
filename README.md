@@ -15,6 +15,6 @@
 # 
 
 # postgres-pathman-fdw
-* 除postgres-local功能外，添加mysql_fdw，oracle_fdw，tds_fdw（mssql）主流数据库的FDW支持。
-* 除postgres-local功能外，添加pg_cron 定时计划扩展
+* 除postgres-pathman功能外，添加mysql_fdw，oracle_fdw，tds_fdw（mssql）主流数据库的FDW支持。
+* 除postgres-pathman功能外，添加pg_cron 定时计划扩展
 
